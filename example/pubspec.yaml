@@ -1,0 +1,16 @@
+name: utc_calendar_example
+description: Example app for the utc_calendar package.
+publish_to: none
+environment:
+  sdk: ^3.13.1
+dependencies:
+  flutter:
+    sdk: flutter
+  utc_calendar:
+    path: ../
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true

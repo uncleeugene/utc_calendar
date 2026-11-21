@@ -1,0 +1,35 @@
+name: utc_calendar
+description: >-
+  A Flutter calendar grid for UTC events: month, week, three-day, day and
+  schedule views, with overlapping layout, paging, pinch zoom and moving events.
+version: 1.0.0
+repository: https://github.com/uncleeugene/utc_calendar
+issue_tracker: https://github.com/uncleeugene/utc_calendar/issues
+screenshots:
+  - description: The week view, fitted to the screen, with overlapping events side by side.
+    path: screenshots/1_week.png
+  - description: The three-day view, with a provisional draft slot.
+    path: screenshots/2_three_days.png
+  - description: The month view.
+    path: screenshots/3_month.png
+  - description: The daily schedule in a dark theme.
+    path: screenshots/4_schedule_dark.png
+topics:
+  - calendar
+  - utc
+  - schedule
+  - timeline
+
+environment:
+  sdk: ^3.13.1
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
